@@ -1,6 +1,7 @@
 body{
     font-family: 'Oswald', sans-serif;
-    background-color: crimson;  
+    background-image: 'https://raw.githubusercontent.com/balltenten/balltenten.github.io/master/Arsenalad/pic/squadall.jpg';  
+    color: white;
 }
 html{
     scroll-behavior: initial;
