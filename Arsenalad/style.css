@@ -58,8 +58,42 @@ thead{
 tbody{background-color: #CCCCCC;font-family: 'Oswald', sans-serif;;
     -webkit-animation-name: color-transition;
     animation-name: color-transition;
-    -webkit-animation-duration: 5s;
-    animation-duration: 5s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+@-webkit-keyframes color-transition {
+    0% {
+        background-color:  white;
+        border-color:  white;
+        color: crimson;
+    }
+    33% {
+        background-color:  whitesmoke;
+        border-color:  whitesmoke;
+        color: crimson;
+    }
+    66% {
+        background-color: crimson;
+        border-color: crimson;
+        color: white
+    }
+    100% {
+        background-color: crimson;
+        border-color: crimson;
+        color: white;
+    }
+}
+thead{background-color: #CCCCCC;font-family: 'Oswald', sans-serif;;
+    -webkit-animation-name: color-transition;
+    animation-name: color-transition;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
     -webkit-animation-iteration-count: infinite;
