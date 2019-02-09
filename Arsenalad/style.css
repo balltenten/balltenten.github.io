@@ -55,7 +55,7 @@ thead{
         color: white;
     }
 }
-tbody{background-color: #CCCCCC;font-family: "Courier New", Courier, monospace;
+tbody{background-color: #CCCCCC;font-family: 'Oswald', sans-serif;;
     -webkit-animation-name: color-transition;
     animation-name: color-transition;
     -webkit-animation-duration: 5s;
